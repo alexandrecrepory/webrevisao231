@@ -1,0 +1,45 @@
+* {
+	font-family: "Courier New";
+}
+
+h1 {
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+div {
+	text-align: center;
+	margin: 20px;
+}
+
+button {
+	font-size: 20px;
+	background-color: purple;
+	color: white;
+	height: 50px;
+	width: 250px;
+	font-weight: bold;
+}
+
+input {
+	height: 40px;
+	width: 600px;	
+}
+
+select {
+	height: 40px;
+	width: 600px;	
+}
+
+textarea {
+	width: 600px;
+}
+
+hr {
+	width: 150px;
+	color: purple;
+	size: 20px;
+}

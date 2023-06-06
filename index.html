@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Ouvidoria - CEUB
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Fale com a ouvidoria</h1>
+	<hr>
+	<p>* Campos de preenchimento obrigatório</p>
+	<form action="/envio.php" method="post">
+		<div>
+			<input type="text" name="nome" placeholder="Nome *">
+		</div>
+		<div>
+			<input type="email" name="emai" placeholder="E-mail *">
+		</div>
+		<div>
+			<input type="tel" name="tel" placeholder="Telefone">
+		</div>
+		<div>
+			<input type="tel" name="cel" placeholder="Celular">
+		</div>
+		<div>
+			<input type="text" name="radtr" placeholder="RA ou DRT (caso seja aluno ou funcionário da instituição">
+		</div>
+		<div>
+			<select>
+				<option>
+					Tipo de manifestação *
+				</option>
+				<option>
+					Elogio
+				</option>
+				<option>
+					Reclamação
+				</option>
+				<option>
+					Sugestão
+				</option>
+				<option>
+					Denúncia
+				</option>
+			</select>
+		</div>
+		<div>
+			<select>
+				<option>
+					Unidade *
+				</option>
+				<option>
+					Asa Norte
+				</option>
+				<option>
+					Campus virtual
+				</option>
+				<option>
+					Saída Sul
+				</option>
+				<option>
+					Setor Comercial Sul
+				</option>
+				<option>
+					Taguatinga I
+				</option>
+				<option>
+					Taguatinga II
+				</option>
+			</select>
+		</div>
+		<div>
+			<textarea rows="10">Mensagem</textarea>
+		</div>
+		<div>
+			<button type="submit">Enviar</button>
+		</div>
+	</form>
+</body>
+</html>
